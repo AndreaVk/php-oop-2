@@ -9,4 +9,12 @@
         $this->price = $_price;
         $this->brand = $_brand;
     }
+
+    public function setPrice($_price){
+        $this->price = $_price;
+    }
+    public function getPrice() {
+        return $this->price;
+    }
+}
     ?>

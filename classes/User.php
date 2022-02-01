@@ -10,4 +10,10 @@
         $this->surname = $_surname;
         $this->email = $_email;
     }
+
+    public function getSconto(){
+        return $this -> discount;
+    }
+
+}
     ?>
